@@ -9,6 +9,9 @@ function App() {
       <Data />
       hi
       hi
+      hi
+      hi
+      hi
     </div>
   );
 }
