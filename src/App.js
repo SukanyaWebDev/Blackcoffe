@@ -7,6 +7,7 @@ function App() {
   return (
     <div>
       <Data />
+      hi
     </div>
   );
 }
