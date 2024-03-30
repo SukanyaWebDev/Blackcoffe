@@ -1,0 +1,101 @@
+ul {
+    list-style: none;
+    border: 1px solid gray;
+    margin-bottom: 5px;
+}
+
+li {
+
+    border: 1px solid gray;
+    margin-bottom: 5px;
+    padding: 3px;
+
+}
+
+.listItem {
+    background-color: rgb(128, 138, 138);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.secondDiv {
+    display: flex;
+}
+
+.NavBar h1 {
+    color: black;
+}
+
+.NavBar button {
+    background-color: azure;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    font-weight: 900;
+}
+
+.listDisplay {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    max-height: 400px;
+}
+
+.side-Bar {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    background-color: rgb(51, 112, 93);
+    align-items: flex-start;
+
+}
+
+.side-Bar h1 {
+    color: rgb(23, 22, 22);
+
+}
+
+.NavBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.mainPage {
+    display: flex;
+    flex-direction: column;
+}
+
+.displayData {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.canvas-container {
+    height: 200px;
+    width: 200px;
+}
+
+.restrict {
+    height: 500px;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.restrictTwo {
+    height: 500px;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
