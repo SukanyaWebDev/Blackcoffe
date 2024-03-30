@@ -8,6 +8,7 @@ function App() {
     <div>
       <Data />
       hi
+      hi
     </div>
   );
 }
